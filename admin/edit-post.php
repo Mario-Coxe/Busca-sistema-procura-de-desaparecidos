@@ -101,10 +101,10 @@ function getSubCat(val) {
                         <div class="row">
 							<div class="col-xs-12">
 								<div class="page-title-box">
-                                    <h4 class="page-title">Edit Post </h4>
+                                    <h4 class="page-title">Editar Post </h4>
                                     <ol class="breadcrumb p-0 m-0">
                                         <li>
-                                            <a href="#">Mário Coxe</a>
+                                            <a href="#">Samuel</a>
                                         </li>
                                         <li>
                                             <a href="#"> Posts </a>
@@ -150,14 +150,14 @@ while($row=mysqli_fetch_array($query))
                                     <div class="">
                                         <form name="addpost" method="post">
  <div class="form-group m-b-20">
-<label for="exampleInputEmail1">Título Do Post</label>
+<label for="exampleInputEmail1">Nome Da Pessoa</label>
 <input type="text" class="form-control" id="posttitle" value="<?php echo htmlentities($row['title']);?>" name="posttitle" placeholder="Título" required>
 </div>
 
 
 
 <div class="form-group m-b-20">
-<label for="exampleInputEmail1">Categoria</label>
+<label for="exampleInputEmail1">Aonde Desapareceu?</label>
 <select class="form-control" name="category" id="category" onChange="getSubCat(this.value);" required>
 <option value="<?php echo htmlentities($row['catid']);?>"><?php echo htmlentities($row['category']);?></option>
 <?php
@@ -183,7 +183,7 @@ while($result=mysqli_fetch_array($ret))
      <div class="row">
 <div class="col-sm-12">
  <div class="card-box">
-<h4 class="m-b-30 m-t-0 header-title"><b>Detalhes Do Post</b></h4>
+<h4 class="m-b-30 m-t-0 header-title"><b>Detalhes</b></h4>
 <textarea class="summernote" name="postdescription" required><?php echo htmlentities($row['PostDetails']);?></textarea>
 </div>
 </div>
@@ -195,14 +195,14 @@ while($result=mysqli_fetch_array($ret))
 <h4 class="m-b-30 m-t-0 header-title"><b>Imagem do Post</b></h4>
 <img src="postimages/<?php echo htmlentities($row['PostImage']);?>" width="300"/>
 <br />
-<a href="change-image.php?pid=<?php echo htmlentities($row['postid']);?>">Update Image</a>
+<a href="change-image.php?pid=<?php echo htmlentities($row['postid']);?>">Actualizar Imagem</a>
 </div>
 </div>
 </div>
 
 <?php } ?>
 
-<button type="submit" name="update" class="btn btn-success waves-effect waves-light">Update </button>
+<button type="submit" name="update" class="btn btn-success waves-effect waves-light">Actualizar </button>
 
                                     </div>
                                 </div> <!-- end p-20 -->

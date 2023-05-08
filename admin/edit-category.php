@@ -30,7 +30,7 @@ $error="Erro! Tente Novamente.";
 <html lang="en">
     <head>
 
-        <title>Portal Coxe| Editar Categoria</title>
+        <title>Busca| Aonde desaparecu</title>
 
         <!-- App css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -69,16 +69,16 @@ $error="Erro! Tente Novamente.";
                         <div class="row">
 							<div class="col-xs-12">
 								<div class="page-title-box">
-                                    <h4 class="page-title">Editar Categoria</h4>
+                                    <h4 class="page-title">Editar</h4>
                                     <ol class="breadcrumb p-0 m-0">
                                         <li>
-                                            <a href="#">Mário Coxe</a>
+                                            <a href="#">Samuel</a>
                                         </li>
                                         <li>
-                                            <a href="#">Categoria </a>
+                                            <a href="#">Aonde Desapareceu </a>
                                         </li>
                                         <li class="active">
-                                            Ediatr Categoria
+                                            Ediatr 
                                         </li>
                                     </ol>
                                     <div class="clearfix"></div>
@@ -91,7 +91,7 @@ $error="Erro! Tente Novamente.";
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="card-box">
-                                    <h4 class="m-t-0 header-title"><b>Editar Categoria </b></h4>
+                                    <h4 class="m-t-0 header-title"><b>Editar  </b></h4>
                                     <hr />
                         		
 
@@ -129,14 +129,14 @@ while($row=mysqli_fetch_array($query))
                         				<div class="col-md-6">
                         					<form class="form-horizontal" name="category" method="post">
 	                                            <div class="form-group">
-	                                                <label class="col-md-2 control-label">Categoria</label>
+	                                                <label class="col-md-2 control-label">Aonde Desapareceu</label>
 	                                                <div class="col-md-10">
 	                                                    <input type="text" class="form-control" value="<?php echo htmlentities($row['CategoryName']);?>" name="category" required>
 	                                                </div>
 	                                            </div>
 	                                     
 	                                            <div class="form-group">
-	                                                <label class="col-md-2 control-label">Descrição da Categoria</label>
+	                                                <label class="col-md-2 control-label">Descrição</label>
 	                                                <div class="col-md-10">
  <textarea class="form-control" rows="5" name="description" required><?php echo htmlentities($row['Description']);?></textarea>
 	                                                </div>
@@ -147,7 +147,7 @@ while($row=mysqli_fetch_array($query))
                                                     <div class="col-md-10">
                                                   
                                                 <button type="submit" class="btn btn-custom waves-effect waves-light btn-md" name="submit">
-                                                    Update
+                                                    Actualizar
                                                 </button>
                                                     </div>
                                                 </div>

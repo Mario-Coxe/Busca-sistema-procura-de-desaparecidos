@@ -15,7 +15,7 @@ include('includes/config.php');
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Portal Coxe| Procurando</title>
+    <title>Progurando Pessoa| Procurando</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -71,7 +71,7 @@ $query=mysqli_query($con,"select tblposts.id as pid,tblposts.PostTitle as postti
 $rowcount=mysqli_num_rows($query);
 if($rowcount==0)
 {
-echo "Não foi encontado nenhum conteúdo relacionado!";
+echo "Não foi encontado nenhuma Pessoa!";
 }
 else {
 while ($row=mysqli_fetch_array($query)) {

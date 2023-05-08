@@ -31,7 +31,7 @@ $error="Erro! Repete novamente.";
 <html lang="en">
     <head>
 
-        <title>Portal Coxe | Adicionar Sub-Categoria</title>
+        <title>Busca | Adicionar Sub-Categoria</title>
 
         <!-- App css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />

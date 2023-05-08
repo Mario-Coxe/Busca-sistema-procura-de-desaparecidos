@@ -14,7 +14,7 @@ else{
 <html lang="en">
     <head>
 
-        <title>Stock News | Add Category</title>
+        <title>Busca</title>
 
         <!-- App css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />

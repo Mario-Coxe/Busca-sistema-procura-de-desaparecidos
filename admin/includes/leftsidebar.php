@@ -32,10 +32,10 @@
                             </li>
 
                             <li class="has_sub" >
-                                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-format-list-bulleted " ></i> <span class="span"> Categoria </span> <span class="menu-arrow"></span></a>
+                                <a href="javascript:void(0);" class="waves-effect"><i class="mdi mdi-format-list-bulleted " ></i> <span class="span"> Aonde Desapareceu </span> <span class="menu-arrow"></span></a>
                                 <ul class="list-unstyled">
-                                	<li class="li-style"><a href="add-category.php">Add Categoria</a></li>
-                                    <li class="li-style"><a href="manage-categories.php">Configurar Categoria</a></li>
+                                	<li class="li-style"><a href="add-category.php">Add onde desaparecu</a></li>
+                                    <li class="li-style"><a href="manage-categories.php">Configurar </a></li>
                                 </ul>
                             </li>
 
@@ -51,7 +51,7 @@
                                 <ul class="list-unstyled">
                                     <li class="li-style"><a href="add-post.php">Add Posts</a></li>
                                     <li class="li-style"><a href="manage-posts.php">Configurar Posts</a></li>
-                                     <li class="li-style"><a href="trash-posts.php">Trash Posts</a></li>
+                                     <li class="li-style"><a href="trash-posts.php">Pots Apagados</a></li>
                                 </ul>
                             </li>  
 

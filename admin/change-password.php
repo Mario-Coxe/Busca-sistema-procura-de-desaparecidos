@@ -46,7 +46,7 @@ $error="Erro ao trocar a palavra passe!!";
 <html lang="en">
     <head>
 
-        <title>Portal Coxe| Adicionar Categoria</title>
+        <title>Busca</title>
 
         <!-- App css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />

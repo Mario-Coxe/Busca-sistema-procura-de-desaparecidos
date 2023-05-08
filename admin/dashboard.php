@@ -16,7 +16,7 @@ else{
         <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
         <meta name="author" content="Coderthemes">
         <!-- App title -->
-        <title>Portal Coxe | Dashboard</title>
+        <title>Busca | Dashboard</title>
 		<link rel="stylesheet" href="../plugins/morris/morris.css">
 
         <!-- App css -->
@@ -72,10 +72,10 @@ else{
                                     <h4 class="page-title">Dashboard</h4>
                                     <ol class="breadcrumb p-0 m-0">
                                         <li>
-                                            <a href="dashboard.php">Portal Coxe</a>
+                                            <a href="dashboard.php">Busca</a>
                                         </li>
                                         <li>
-                                            <a href="#">Mário Coxe</a>
+                                            <a href="#">Samuel</a>
                                         </li>
                                         <li class="active">
                                            Informaçãoes
@@ -93,7 +93,7 @@ else{
                                 <div class="card-box widget-box-one">
                                     <i class="mdi mdi-chart-areaspline widget-one-icon"></i>
                                     <div class="wigdet-one-content">
-                                        <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="Statistics">Categorias Listadas</p>
+                                        <p class="m-0 text-uppercase font-600 font-secondary text-overflow" title="Statistics">Aonde Desparecu</p>
 <?php $query=mysqli_query($con,"select * from tblcategory where Is_Active=1");
 $countcat=mysqli_num_rows($query);
 ?>

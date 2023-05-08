@@ -2,7 +2,7 @@
 
                 <!-- LOGO -->
                 <div class="topbar-left">
-                    <a href="dashboard.php" class="logo"><span>Portal<span>Coxe</span></span><i class="mdi mdi-layers"></i></a>
+                    <a href="dashboard.php" class="logo"><span>Busca<span>Por</span>Desaparecidos</span><i class="mdi mdi-layers"></i></a>
                     
                 </div>
 
@@ -32,7 +32,7 @@
 
                                 <ul class="dropdown-menu dropdown-menu-right arrow-dropdown-menu arrow-menu-right user-list notify-list">
                                     <li>
-                                        <h5>Olá, Mário Coxe</h5>
+                                        <h5>Olá, Samuel</h5>
                                     </li>
                               
                                     <li><a href="change-password.php"><i class="ti-settings m-r-5"></i> Trocar Password</a></li>

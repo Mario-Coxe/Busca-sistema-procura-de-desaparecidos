@@ -58,7 +58,7 @@ $error="Erro! Repete novamente.";
         <!-- App favicon -->
         <link rel="shortcut icon" href="assets/images/favicon.ico">
         <!-- App title -->
-        <title>Portal Coxe | Add Post</title>
+        <title>Busca | Adicionar Pessoa Desaparecida</title>
 
         <!-- Summernote css -->
         <link href="../plugins/summernote/summernote.css" rel="stylesheet" />
@@ -120,13 +120,13 @@ function getSubCat(val) {
                         <div class="row">
 							<div class="col-xs-12">
 								<div class="page-title-box">
-                                    <h4 class="page-title">Add Post </h4>
+                                    <h4 class="page-title">Adicionar Pessoa Desaparecida</h4>
                                     <ol class="breadcrumb p-0 m-0">
                                         <li>
                                             <a href="#">Post</a>
                                         </li>
                                         <li>
-                                            <a href="#">Add Post </a>
+                                            <a href="#">Adicionar Pessoa Desaparecida</a>
                                         </li>
                                         <li class="active">
                                             Add Post
@@ -165,7 +165,7 @@ function getSubCat(val) {
 <form name="addpost" method="post" enctype="multipart/form-data">
  <div class="form-group m-b-20">
 <label for="exampleInputEmail1">Titulo do Post</label>
-<input type="text" class="form-control" id="posttitle" name="posttitle" placeholder="Título do Post" required>
+<input type="text" class="form-control" id="posttitle" name="posttitle" placeholder="Nome da Pessoa" required>
 </div>
 
 
@@ -173,7 +173,7 @@ function getSubCat(val) {
 <div class="form-group m-b-20">
 <label for="exampleInputEmail1">Categoria</label>
 <select class="form-control" name="category" id="category" onChange="getSubCat(this.value);" required>
-<option value="">Selecione Categoria </option>
+<option value="">Aonde Desapareceu? </option>
 <?php
 // Feching active categories
 $ret=mysqli_query($con,"select id,CategoryName from  tblcategory where Is_Active=1");
@@ -197,7 +197,7 @@ while($result=mysqli_fetch_array($ret))
 <div class="row">
 <div class="col-sm-12">
  <div class="card-box">
-<h4 class="m-b-30 m-t-0 header-title"><b>Detalhes do Post</b></h4>
+<h4 class="m-b-30 m-t-0 header-title"><b>Detalhes</b></h4>
 <textarea class="summernote" name="postdescription" required></textarea>
 </div>
 </div>

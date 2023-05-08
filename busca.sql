@@ -56,7 +56,7 @@ CREATE TABLE `tbladmin` (
 --
 
 INSERT INTO `tbladmin` (`id`, `AdminUserName`, `AdminPassword`, `AdminEmailId`, `Is_Active`, `CreationDate`, `UpdationDate`) VALUES
-(1, 'mariocoxe', '$2y$12$ZxI1OoZne5H7qBM/6gixieSYm329vXZQz9JecHSxBlPpl8vLLWS.e', 'cox3site59@gmail.com', 1, '2022-01-20 17:51:00', '0000-00-00 00:00:00');
+(1, 'admin', '$2y$12$ZxI1OoZne5H7qBM/6gixieSYm329vXZQz9JecHSxBlPpl8vLLWS.e', 'busca59@gmail.com', 1, '2022-01-20 17:51:00', '0000-00-00 00:00:00');
 
 -- --------------------------------------------------------
 

@@ -31,7 +31,7 @@ $error="Erro ao criar a categoria!";
 <html lang="en">
     <head>
 
-        <title>Busca | Aonde sapareceu</title>
+        <title>Busca | Aonde Desapareceu</title>
 
         <!-- App css -->
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
@@ -70,16 +70,16 @@ $error="Erro ao criar a categoria!";
                         <div class="row">
 							<div class="col-xs-12">
 								<div class="page-title-box">
-                                    <h4 class="page-title">Adicionar Categoria</h4>
+                                    <h4 class="page-title">Aonde Desapareceu</h4>
                                     <ol class="breadcrumb p-0 m-0">
                                         <li>
-                                            <a href="#">Mário Coxe</a>
+                                            <a href="#">Samuel</a>
                                         </li>
                                         <li>
-                                            <a href="#">Categoria </a>
+                                            <a href="#">Aonde Desapareceu</a>
                                         </li>
                                         <li class="active">
-                                            Adicionar Categoria
+                                            Adicionar local onde a pessoa desaparecu
                                         </li>
                                     </ol>
                                     <div class="clearfix"></div>
@@ -92,7 +92,7 @@ $error="Erro ao criar a categoria!";
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="card-box">
-                                    <h4 class="m-t-0 header-title"><b> Adicionar Categoria</b></h4>
+                                    <h4 class="m-t-0 header-title"><b> Adicionar</b></h4>
                                     <hr />
                         		
 
@@ -124,14 +124,14 @@ $error="Erro ao criar a categoria!";
                         				<div class="col-md-6">
                         					<form class="form-horizontal" name="category" method="post">
 	                                            <div class="form-group">
-	                                                <label class="col-md-2 control-label">Categoria</label>
+	                                                <label class="col-md-2 control-label">Aonde Desapareceu</label>
 	                                                <div class="col-md-10">
 	                                                    <input type="text" class="form-control" value="" name="category" required>
 	                                                </div>
 	                                            </div>
 	                                     
 	                                            <div class="form-group">
-	                                                <label class="col-md-2 control-label">Categoria Descrição</label>
+	                                                <label class="col-md-2 control-label">Descrição</label>
 	                                                <div class="col-md-10">
 	                                                    <textarea class="form-control" rows="5" name="description" required></textarea>
 	                                                </div>
@@ -142,7 +142,7 @@ $error="Erro ao criar a categoria!";
                                                     <div class="col-md-10">
                                                   
                                                 <button type="submit" class="btn btn-custom waves-effect waves-light btn-md" name="submit">
-                                                    Submit
+                                                    Enviar
                                                 </button>
                                                     </div>
                                                 </div>
