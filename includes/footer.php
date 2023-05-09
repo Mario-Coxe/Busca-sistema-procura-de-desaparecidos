@@ -47,8 +47,10 @@
 
       <!-- Grid column -->
       <div class="col-md-8 col-12 mt-5">
-        <p style="line-height: 1.7rem" class="text-light">EA crescente incidência de casos de pessoas desaparecidas em todo o mundo tem preocupado a sociedade civil e as autoridades competentes. A busca pelos desaparecidos é uma tarefa árdua e muitas vezes ineficaz. Por isso, é fundamental que haja uma ampla divulgação de informações sobre os casos, a fim de facilitar a localização dessas pessoas.
-Uma das formas mais eficientes de se promover a divulgação de informações sobre pessoas desaparecidas é por meio de portais destinados a esse fim. Esses portais são plataformas virtuais que reúnem informações e imagens das pessoas desaparecidas, permitindo que familiares, amigos e a sociedade em geral tenham acesso a essas informações e possam colaborar na busca</p>
+        <p style="line-height: 1.7rem" class="text-light"> Crescente incidência de casos de pessoas desaparecidas em todo o mundo tem preocupado a sociedade civil e as autoridades competentes. A busca pelos desaparecidos é uma tarefa árdua e muitas vezes ineficaz. Por isso, é fundamental que haja uma ampla divulgação de informações sobre os casos, a fim de facilitar a localização dessas pessoas.
+
+Uma das formas mais eficientes de se promover a divulgação de informações sobre pessoas desaparecidas é por meio de portais destinados a esse fim. Esses portais são plataformas virtuais que reúnem informações e imagens das pessoas desaparecidas, permitindo que familiares, amigos e a sociedade em geral tenham acesso a essas informações e possam colaborar na busca.
+</p>
       </div>
       <!-- Grid column -->
 

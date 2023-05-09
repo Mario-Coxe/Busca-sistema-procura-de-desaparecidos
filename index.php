@@ -67,9 +67,9 @@ while (@$row=mysqli_fetch_array($query)) {
           <a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>"> <img class="card-img-top" src="admin/postimages/<?php echo htmlentities($row['PostImage']);?>" alt="<?php echo htmlentities($row['posttitle']);?>"></a>
             <div class="card-body">
               <h2 class="card-title"><?php echo htmlentities($row['posttitle']);?></h2>
-                 <p><b>Categoria : </b> <a href="category.php?catid=<?php echo htmlentities($row['cid'])?>"><?php echo htmlentities($row['category']);?></a> </p>
+                 <p><b>Provincia : </b> <a href="category.php?catid=<?php echo htmlentities($row['cid'])?>"><?php echo htmlentities($row['category']);?></a> </p>
        
-              <a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>" class="btn btn-primary">Ler &rarr;</a>
+              <a href="news-details.php?nid=<?php echo htmlentities($row['pid'])?>" class="btn btn-primary">Ver Ifonformações &rarr;</a>
             </div>
             <div class="card-footer text-muted">
               Postado em: <?php echo htmlentities($row['postingdate']);?>
